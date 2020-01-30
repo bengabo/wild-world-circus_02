@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  background: lightgrey;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Baloo", cursive;
+  color: #ff2e6d;
+  font-size: 40px;
+}
+
+@media (max-width: 1440px) {
+ 
+  .container {
+    width: 1640px;
+    min-width: 1640px;
+    margin: 0 auto;
+  }
+  title {
+    font-size: 50px;
+  }
+}
+
+/* HEADER */
+header {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  background-color:lightgrey;
+}
+
+.innerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  color: #ff2e6d;
+
+}
+
+.logo a {
+  font-family: "Baloo", cursive;
+  font-size: 40px;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: #ff2e6d;
+}
+
+.navigation nav a {
+  margin: 0 20px;
+  font-size: 1 rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+  color: black;
+}
+
+/* .navigation nav a :last-child{
+  margin-right: 100px;
+} */
+
+/* BANNER */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  height: 100vh;
+}
+
+.row {
+  position: relative;
+}
+
+.main-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 5.8rem;
+  text-transform: uppercase;
+  letter-spacing: 42px;
+  font-weight: 700;
+  color: #ff2e6d;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  opacity: 20%;
+  transform: translateY(-50%);
+  text-align: center;
+ }
